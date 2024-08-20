@@ -4,7 +4,7 @@ from .views import MachineViewSet
 
 # Create a router and register the MachineViewSet with it
 router = DefaultRouter()
-router.register(r'machines', MachineViewSet, basename='machine')
+router.register(r'machine', MachineViewSet, basename='machine')
 
 # The API URLs are now determined automatically by the router
 urlpatterns = [
